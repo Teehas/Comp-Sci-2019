@@ -1,0 +1,11 @@
+<?php
+$N=7;
+echo "*" . "<br>";
+echo "**" . "<br>";
+for($i=3;$i<$N;$i++) {
+    for ($k=1;$k<=$i;$k++) {
+        if ($k==1 or $k==$i) echo "*";
+        else echo "x"; }
+    echo "<br>"; }
+for ($i=1;$i<=$N;$i++) echo "*";
+?>
